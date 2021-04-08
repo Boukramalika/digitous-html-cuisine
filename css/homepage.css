@@ -1,0 +1,81 @@
+
+@font-face {
+    font-family: "courgette";
+    src: url("../font/Courgette/Courgette-Regular.ttf") format("ttf");
+   }
+
+
+   @font-face {
+    font-family: "oswald";
+    src: url("../font/Oswald/Oswald-VariableFont_wght.ttf") format("ttf");
+         
+   }
+
+
+.test
+{
+    background-image: url("../img/header.jpg");
+    background-repeat: no-repeat;
+   
+
+    /*
+    width: auto;
+    height: 100%;
+*/
+
+    /* Full height */
+  height: 800px; 
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+/*
+.bg-dark-customized {
+    background-color: #000000c6;
+    color: white;
+}*/
+
+.banniere {
+
+background-color: black;
+opacity: 0.8;
+height: 800px; 
+
+}
+.row img
+{
+    width:50%;
+    height:auto;
+   /* margin-right:20% ;*/
+  
+   
+    
+}
+h3
+{
+    
+    font-family: "courgette";
+    color: white;
+}
+
+.container-fluid h1
+{
+    color: white;
+    font-family: 'courgette', cursive;
+    font-style: italic;
+}
+
+.container-fluid h2
+{
+    color: white;
+    font-family: 'courgette', cursive;
+    font-style: italic;
+}
+
+.logo
+{
+    margin-top: 50% ;
+}
+
