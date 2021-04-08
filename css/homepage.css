@@ -79,3 +79,10 @@ h3
     margin-top: 50% ;
 }
 
+.row img
+{
+    width:auto;
+    height: 50%;
+}
+
+
