@@ -86,4 +86,18 @@ h3
     color: black;
     font-family: 'courgette',
 }   
+.pied-page 
+{
+    font-family: "oswald";
+    font-style: italic;
+}
 
+.pied-page ul
+{
+text-decoration: underline;    
+}
+
+.taille
+{
+    width: 15%;
+}
