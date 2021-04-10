@@ -6,180 +6,279 @@
         <link rel="stylesheet" href="css/main.css">
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
         <script src="https://kit.fontawesome.com/6002d8f0af.js" crossorigin="anonymous"></script>
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
         <title> cuisine</title>
-        
     </head>
-    <body>
-    <div>
-      <header class="test">
-        <div class="container-fluid banniere ">
     
-          <div class="row">
-                      <nav class="navbar navbar-dark">
-                        <h3>Cui'Zine</h3>
-                        <button class="navbar-toggler offset-9" type="button" data-toggle="collapse" data-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
-                          <span class="navbar-toggler-icon"></span>
-                        </button>
-                        <div class="collapse navbar-collapse" id="navbarNavDropdown">
-                          <ul class="navbar-nav">
-                            <li class="nav-item dropdown">
-                              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                Dropdown link
-                              </a>
-                              <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                                <a class="dropdown-item" href="#">Action</a>
-                                <a class="dropdown-item" href="#">Another action</a>
-                                <a class="dropdown-item" href="#">Something else here</a>
-                              </div>
-                            </li>
-                          </ul>
-                        </div>
-                      </nav>
-          </div>
+    <body>
+        <div class="banniere">
+          <!--navigation-->
+          <nav class="navbar navbar-expand-lg navbar-dark">
+            <div class="container-fluid">
+              <h2>
+              <a class="navbar-brand" href="#">cui'zine</a>
+            </h2>
+              <button 
+              class="navbar-toggler" 
+              type="button" 
+              data-bs-toggle="collapse"
+               data-bs-target="#navbarToggleExternalContent" 
+               aria-controls="navbarToggleExternalContent" 
+               aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
               
-          
+              <div class="collapse navbar-collapse " id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0 offset-10">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">Accueil</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Equipe</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Blog</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Contact</a>
+                  </li>
+                 
+                </ul>
+              </div>
+            </div>
+          </nav>
+          <!--fin de navigation-->
+          <header>
+            <div class="container-fluid">
+              <div class="row logo">
+                <div class="col-6 offset-4">
+                  <img src="./img/logo_square_white.png" class="rounded" alt="logo_square_white">
+                  <h1 class="display-1">Cui'zine</h1> 
+                  <h3 class="display-3"> le mag cuisine</h3>    
 
-
-          <div class="container">
-                          <div class="row mb-4">
-                              <div class="col-6 offset-5 ">
-                                <img class="rounded-circle logo" src="img/logo_square_white.png" alt="logo_square_white"> 
-                              </div> 
-                          </div>  
-                          <div class="row mb-4">
-                            <div class="col-6  offset-5">
-                                
-                                <h1>Cui'Zine</h1>
-                            </div>
-                        </div>  
-                        <div class="row">
-                          
-                          <div class="col-6 offset-5">
-                          
-                              <h2>Le mag cuisine</h2>
-                          </div>
-                      </div>  
-            </div>  
-
-
-
+                </div>
+              </div>
+          </div>
+        </header>
         </div>
-      </header>
+        <!--fin de banniere-->
 
+        <!--debut de la section articles -->
+       
 
-
-
-      <div class="container">
-          <div class="row">
-                 <div class="col-6 offset-4">
-                   
-                         <div class="box blanc"><h1>Dernier article</h1></div>
-               </div>
+  <section class="container ">
+    <div class="titre mb-5 mt-5 text-center"><h2>Dernier articles</h2></div>
+      <div class="row ">
+      <!--colone de mes articles-->
+          <div class="col-12 col-lg-9">
+            <article class="row ">
+              <div class="col-12 col-md-4 mb-3">
+                <img  src="img/articles/suzette/suzette-small.jpg" class="img-fluid" alt="photo1">  
+              </div>
+              <div class="col-12 col-md-8 titre">
+                <h3>Chez Suzette, la nouvelle crêperie qui fait parler d’elle</h3>
+                <p>La franchise “Chez Suzette” qui fait un carton chez les bretons
+                  ouvre son premier restaurant à Paris dans le quartier latin. 
+                  Antoine de Cui’zine a testé pour vous les saveurs sucrés, 
+                  salés au froment ou au sarrazin!</p>
               </div>
 
+            </article>
+            <article class="row">
+              <div class="col-12 col-md-4 mb-3">
+                <img  src="img/articles/metro/metro-small.jpg" class="img-fluid" alt="photo2">  
+              </div>
+              <div class="col-12  col-md-8 titre">
+                <h3>Le Métro dessert</h3>
+                <p> Germain est ferrovipathe (ndlr: fan de train), son fils Maxime est pâtissier.
+                  ils ont décidé de réunir leur passions dans un restaurant à la déco inspiré du
+                    métro parisien. A voir absolument, mais qu’en est-il d’y aller pour manger?
+                    Clémentine entre en gare et nous donne son avis.</p>
 
+              </div>
+            </article>
+            <article class=" row mb-3">
+              <div class="col-12 col-md-4">
+                <img  src="img/articles/vitaly/vitaly-small.jpg" class="img-fluid" alt="photo3">
+              </div>
+              <div class=" col-12 col-md-8 titre">
+                <h3>Vitaly, le végan italien lysis</h3>
+                <p> Quand on pense italien, on pense lasagne et jambon de Parme. 
+                  ils l’ont fait, les saveurs de l’Italie à portée des herbivores. 
+                  Cette fois, c’est moi Tony qui vais le tester pour vous.</p>
+              </div>
+            </article>
+            <div class=" row">
+              <div class="col-6">
+                <a href="#">&laquo; Voir les articles précédents</a>
+              </div>
+            </div>
 
-      </div>
+          </div>
+       
+   
 
-
-      <div class="container-fluid">
+                <!--fin colone de mes articles-->
+        <!--une utilisation des propriété d'affichage : https://getbootstrap.com/docs/4.0/utilities/display/-->
+        <aside class="col-lg-3   d-none d-lg-block">
+          <form>
+            <div class="form-group mb-3">
+              <h6>Recherche</h6>
+              <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Recherche">
+              <button type="text" class="btn btn-outline-dark btn-lg btn-block">ok</button>
+            </div>
+            <div class="form-group mb-3">
+              <h6>Newsletter</h6>
+              <input type="email" class="form-control" id="exampleInputPassword1" placeholder="Email...">
+              <button type="button" class="btn btn-outline-dark btn-lg btn-block">S'inscrire</button>
+            </div>
+            
+          </form>
+          
+          <div>
+            <h6>Partager</h6>
+            <a class="btn btn-outline-dark btn-floating " href="#!" role="button">
+            <i class="fab fa-facebook-f"></i></a> 
+            <a class="btn btn-outline-dark btn-floating " href="#!" role="button">
+            <i class="fab fa-instagram"></i></a>
+            <a class="btn btn-outline-dark btn-floating " href="#!" role="button">
+            <i class="fab fa-youtube"></i></a>
+            <a class="btn btn-outline-dark btn-floating " href="#!" role="button">
+            <i class="fab fa-twitter"></i></a>
+          </div>
+           
+          
+        </aside>
         
-            <div class="row">
-                <article class="col-12">
-                  <div>
-                    <img  src="img/articles/suzette/suzette-small.jpg" alt="photo1">  
-                  </div>
-                    <p> lorem ipsum dolor sit amet consecteur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua;ut enim ad minim veniam; quis nostrud exercitation uilamco laboris nisi ut ailiquip ex ea commodo consequat</p>
-                </article>
+    <!--
+
+      https://tutowebdesign.com/caracteres-speciaux-html.php
+    </div>
+    <div>
+      <a href="#">&laquo; Voir les articles précédents</a>
+    </div>
+-->  
+  </section>
 
 
-              
-                  <article class="col-12 ">
-                        <div>
-                          <img  src="img/articles/metro/metro-small.jpg" alt="photo2">  
+
+
+
+
+
+
+
+
+
+
+
+    <!-- 
+  <footer class="bg-dark  text-white">
+              <div class="container-fluid">
+                <div  class="row ">
+
+                     <div class="col-12 col-md-3 mb-2 mt-5 ">
+                                  <h1>Catégories</h1>
+                                  <ul class="nav flex-column ">
+                                    <li class="nav-item">
+                                      <a class="nav-link text-white" href="#">Revues</a>
+                                    </li>
+                                    <li class="nav-item">
+                                      <a class="nav-link text-white" href="#">Recettes</a>
+                                    </li>
+                                    <li class="nav-item">
+                                      <a class="nav-link text-white" href="#">Découvertes</a>
+                                    </li>
+                                  </ul>
                       </div>
 
+                      <div class="col-12  mb-2">
           
-                    <h1>Action</h1>
-                    <p> lorem ipsum dolor sit amet consecteur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua;ut enim ad minim veniam; quis nostrud exercitation uilamco laboris nisi ut ailiquip ex ea commodo consequat</p></p>
-                </artice>
+                                     <h1>Archives</h1>
+                                    
+                                     <ul class="nav flex-column">
+                                      <li class="nav-item">
+                                        <a class="nav-link text-white" href="#">2019</a>
+                                      </li>
+                                      <li class="nav-item">
+                                        <a class="nav-link text-white" href="#">2018</a>
+                                      </li>
+                                      <li class="nav-item">
+                                        <a class="nav-link text-white" href="#">2017</a>
+                                      </li>
+                                    </ul>
+                      </div>
 
-               
-        
-            
-                      <article class="col-12">
-                        <div>
-                          <img  src="img/articles/vitaly/vitaly-small.jpg" alt="photo3">  
-                        </div>
-                       
-
-                
-                    <h1>Analysis</h1>
-                    <p>  <p> lorem ipsum dolor sit amet consecteur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua;ut enim ad minim veniam; quis nostrud exercitation uilamco laboris nisi ut ailiquip ex ea commodo consequat</p></p>
-                  </article> 
-              </div>
-        
-    </div>
-
-
-
-
-
-  </div>
-    </body>
-       
-                   
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+                      <div class="col-12 col-md-3 mb-2">
+                                     <h1>Newsletter</h1>
+                                     
+                      </div>   
+                                        <div class="container-fluid">
+                                                <div class="row ">
+                                                    <div class="col-3">
+                                                        <div class="form-outline form-white mb-4">
+                                                              <input type="email" id="form5Example2" class="form-control" placeholder="Email">
+                                                              <label class="form-label" for="form5Example2"> </label>
+                                                          </div>
+                                                      </div>       
+                                                             
+                                                    <div class="col-auto">            
+                                                        <div class="form-outline form-black mb-4">   
+                                                      
+                                                              <button type="submit" class="btn btn-outline-light mb-4">
+                                                                   s'inscrire
+                                                                </button>   
+                                                        </div>
+                                            
+                                                      </div>
+                                            </div>
+                                   </div>  
+                                 
+                                   <div class=" container-fluid">
+                                                         <div class="row">
+                                                           <div class=" col-3">
+                                                                <h3>Partager</h3>
+                                                           </div>
+                                                        </div>
                  
-                    
-           
-                    
+                                           </div>
 
+                           <div id="newsletter-container">
+                                            <div class="container-fluid mb-5 ">
+                                                    <div class="row "> 
 
+                                                        <div class="col-1">   
+                                                            <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button">
+                                                            <i class="fab fa-facebook-f"></i></a>  
+                                                        </div>
+                                                   
+                                            
+                                                        <div class="col-1">
+                                                         
+                                                              <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button">
+                                                              <i class="fab fa-instagram"></i ></a> 
+                                                         
+                                                          </div>
 
+                                                          <div class="col-1">
+                                                            
+                                                                <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button">
+                                                                <i class="fab fa-youtube"></i ></a> 
+                                                           
+                                                            </div>
 
+                                                            <div class="col-1">
+                                                            
+                                                              <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button">
+                                                              <i class="fab fa-twitter"></i ></a> 
+                                                         
+                                                          </div>
+                                                        </div>  
+                                                    </div> 
+                                      </div>
+                </div>
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+          </footer>
+    
     </body>
+  -->
