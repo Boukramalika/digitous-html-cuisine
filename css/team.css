@@ -1,0 +1,85 @@
+
+@font-face {
+    font-family: "courgette";
+    src: url("../font/Courgette/Courgette-Regular.ttf") format("ttf");
+   }
+
+
+   @font-face {
+    font-family: "oswald";
+    src: url("../font/Oswald/Oswald-VariableFont_wght.ttf") format("ttf");
+         
+   }
+
+
+.banniere
+{
+    background-image: url("../img/team/team.jpg");
+    background-position: center;
+    
+    height:500px;
+    background-size: cover;
+
+}
+.banniere h2{
+    font-family: "oswald"; 
+    font-style: italic;
+}
+
+
+nav, header{
+    background-color: black;
+    opacity: 0.7;
+    
+    
+}
+nav ul{
+    font-style: italic;
+    font-family: "oswald";
+
+    
+}
+
+.navbar {
+    border-bottom: 2px solid darkgrey;
+    
+}
+
+.ecriture
+{
+    color: white;
+    font-family: 'courgette', cursive;
+    font-style: italic;
+    text-align: center;
+}
+
+.test
+{
+    height:450px;
+}
+
+}
+.photo img{
+    width: 150px;
+    height: 150px;
+}
+ .photo h2 
+{
+    font-style: italic;
+    font-family: "oswald";
+    font-weight: bold;
+}
+.pied_page
+{
+   padding: 7%;
+   font-style: italic;
+   font-family: "oswald";
+   font-weight: bold;
+}
+.pied_page li{
+    text-decoration: underline;
+}
+
+
+
+
