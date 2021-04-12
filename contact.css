@@ -17,6 +17,7 @@
     background-image: url("../img/header.jpg");
     background-position: center;
     background-size: cover;
+    
    
 
 }
@@ -24,6 +25,7 @@
 nav, header {
     background-color: black;
     opacity: 0.7;
+   
     
 }
 
@@ -57,12 +59,12 @@ h3
 
 .logo img
 {
-width: 80px;
-height: 80px;
 
    
+   width:80px;
+   
+  
 }
-
 
 /*
 .recettes img
@@ -93,6 +95,7 @@ h3
 {
     font-family: "oswald";
     font-style: italic;
+   
 }
 
 .pied-page ul
@@ -104,3 +107,4 @@ text-decoration: underline;
 {
     width: 15%;
 }
+

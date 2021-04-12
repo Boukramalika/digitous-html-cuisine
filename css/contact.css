@@ -57,12 +57,9 @@ h3
 
 .logo img
 {
-width: 80px;
-height: 80px;
 
-   
+   margin-top: 50% ;
 }
-
 
 /*
 .recettes img
@@ -104,3 +101,4 @@ text-decoration: underline;
 {
     width: 15%;
 }
+#mapid { height: 180px; }
